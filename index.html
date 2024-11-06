@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c8ed364d89.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="color-1.css">
+    <link rel="stylesheet" href="style-switcher.css">
+    <link rel="stylesheet" href="color-1.css" class="alternate-style"title="color-1">
+    <link rel="stylesheet" href="color-2.css" class="alternate-style"title="color-2"disabled>
+    <link rel="stylesheet" href="color-3.css" class="alternate-style"title="color-3"disabled>
+    <link rel="stylesheet" href="color-4.css" class="alternate-style"title="color-4"disabled>
+    <link rel="stylesheet" href="color-5.css" class="alternate-style"title="color-5"disabled>
+</head>
+<body>
+<!--aside section start-->
+  <div class="aside">
+     <div class="logo">
+        <a href="#"><span>P</span>ortfolio</a>
+     </div>
+     <div class="nav-toggler">
+      <span></span>
+     </div>
+    <ul class="nav">
+        <li><a href="#home" class="active"><i class="fa-solid fa-house-chimney"></i> Home </a></li>
+        <li><a href="#about"> <i class="fa-solid fa-user"></i> About</a></li>
+        <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
+        <li><a href="#contact"><i class="fa-solid fa-comments"></i> contact</a></li>
+    </ul>
+  </div>
+<!--aside section end-->
+
+  <!--main container start-->
+  <div class="main-content">
+    <!--home section start-->
+    <section class="home active section" id="home">
+       <div class="container">
+        <div class="row">
+          <div class="home-info padd-15"> 
+            <h3 class="hello">Hello,my name is <span>Manasa</span></h3>
+            <h3 class="my-profession">I'm a <span class="typing">Web designer</span></h3>
+            <p class="about-para">I have a keen desire to learn modern technologies and am commited to delivering high-quality work.<br>I enjoy collobarating with cross functional teams to achieve project goals and am passionate about Frontend Development</p>
+            <a href="#about" class="btn">Download CV</a><br>
+            <div class="icons">
+              <i class="fa-brands fa-whatsapp"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+          </div>
+            <div class="home-img padd-15">
+            <img src="girl.png" class="img">
+            </div>
+        </div>
+       </div>
+    </section>
+     <!--home section end-->
+      <!--about section start-->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title padd-15">
+             <h2 class="title">About Me</h2>
+          </div>
+        </div>
+        <div class="row">
+         <div class="about-content padd-15">
+          <div class="row">
+            <div class="about-text padd-15">
+              <p class="about-para">I have a keen desire to learn modern technologies and am commited to delivering high-quality work.<br>I enjoy collobarating with cross functional teams to achieve project goals and am passionate about Frontend Development</p>
+              <div class="tab-titles"> 
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Web Technologies</span><br>
+                      <p>HTML</p>
+                      <div class="skills-container">
+                        <div class="skills-bar html">95%</div>
+                      </div>
+                      
+                      <p>CSS</p>
+                      <div class="skills-container">
+                        <div class="skills-bar css">85%</div>
+                      </div>
+                      
+                      <p>JavaScript</p>
+                      <div class="skills-container">
+                        <div class="skills-bar js">80%</div>
+                      </div></li>
+                    <li><span>Languages</span><br> 
+                      <p>PYTHON</p>
+                      <div class="skills-container">
+                        <div class="skills-bar css">85%</div>
+                      </div> </li>
+                    <li><span>Database</span><br>
+                      <p>My SQL</p>
+                      <div class="skills-container">
+                        <div class="skills-bar html">95%</div>
+                      </div></li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="hobbies">
+                <ul>
+                    <li>stitching<br>handicraft<br>Listening songs</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2019-2022</span><br>B.Sc MPC<br>satavahana university, Karimnagar<br>Tswrdc-W Sircilla</li>
+                    <li><span>2017-2019</span><br>TSBIE MPC<br>GOVT JR COLLEGE (GIRLS),Manthani </li>
+                    <li><span>2017</span><br>SSC<br>ZPHS(GIRLS),Manthani</li>
+                </ul>
+             </div>
+            </div>
+          </div>
+  
+         </div>
+        </div>
+      </div>
+    </section>
+      <!--about section  end -->
+        <!-- portfolio section  start-->
+         <section class="portfolio section" id="portfolio">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                 <h2 class="title">portfolio</h2>
+              </div>
+            </div>
+            <div class="row">
+             <div class="portfolio-heading padd-15">
+              <h2 class="heading">My Projects :</h2>
+             </div>
+            </div>
+                <!--portfolio item start-->
+                      <div class="work-list padd-15">
+                          <div class="work">
+                              <img src="https://img.freepik.com/premium-photo/isometric-social-media-network-logos-scattered-background_216606-134.jpg?size=626&amp;ext=jpg&amp;ga=GA1.1.2060654057.1704172838&amp;semt=ais">
+                               <div class="layer">
+                                  <h3>Social Media App</h3>
+                                  <p>The app connects you to the talented people around the world<br>Share the thoughts</p>
+                              </div>
+                          </div>
+                          <div class="work">
+                            <img src="https://img.freepik.com/free-vector/rock-paper-scissors-banners-with-hand-gestures_107791-10947.jpg?t=st=1709004655~exp=1709008255~hmac=91e0496cfe341e5c8aad56c49d6b274ed307fbf295903a114a2d7a73b4bfeeb4&w=1380">
+                            <div class="layer">
+                                <h3>AI Vs Human</h3>
+                                <p>Play With AI</p>
+                            </div>
+                          </div>
+                          <div class="work">
+                            <img src="https://img.freepik.com/free-vector/glowing-shiny-musical-notes-background-design_1017-32856.jpg?size=626&amp;ext=jpg&amp;ga=GA1.1.2060654057.1704172838&amp;semt=ais">
+                            <div class="layer">
+                                <h3>Music App</h3>
+                                <p>Feel,Relax and Listen the Music</p>
+                            </div>
+                          </div>
+                          <div class="work">
+                            <img src="https://img.freepik.com/free-vector/gradient-we-are-back-illustration_23-2149940999.jpg?t=st=1709004787~exp=1709008387~hmac=680906901ef224d386a33c51d339048237eb5fec0804bd5847b616d3715568a8&w=1380">
+                            <div class="layer">
+                                <h3>puzzle Game</h3>
+                                <p>Complete the Puzzle</p>
+                            </div>
+                          </div>
+                          <div class="work">
+                              <img src="https://img.freepik.com/free-photo/indian-food-circular-frame-with-copy-space_23-2148747658.jpg?t=st=1709004937~exp=1709008537~hmac=8c35945bcfb02668aeb96a496586b900cd51f7e11e79e5c0ab0cf3201f27d716&w=1380">
+                              <div class="layer">
+                                  <h3>order food</h3>
+                                  <p>enjoy food</p>
+                              </div>
+                          </div>
+                          <div class="work">
+                              <img src="https://img.freepik.com/free-photo/laptop-shopping-bags-online-shopping-concept_1423-189.jpg?size=626&amp;ext=jpg&amp;ga=GA1.1.2060654057.1704172838&amp;semt=ais">
+                              <div class="layer">
+                                  <h3>Online Shopping App</h3>
+                                  <p>Buy the product that you want with <br>One click</p>
+                              </div>
+                          </div>
+                      </div>
+          </div>
+        </section>               
+        <!--portfolio section  end -->  
+<!-- contact section  start-->
+<section class="contact section" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="section-title padd-15">
+         <h2 class="title">Contact</h2>
+      </div>
+    </div>
+      <h3 class="contact-title padd-15"> Have You Any questions?</h3>
+      <h4 class="contact-sub-title padd-15">I,M AT YOUR SERVICES</h4>
+    <div class="contact-item">
+        <!--contact item start-->
+        <div>
+        <div class="contact-info-item padd-15">
+          <div class="icon"><i class="fa fa-phone"></i></div>
+          <h4>Call</h4>
+          <p>+9347238537</p>
+        </div>
+
+        <div class="contact-info-item padd-15">
+          <div class="icon"><i class="fa-brands fa-whatsapp"></i></i></div>
+          <h4>whatsapp</h4>
+          <p>+9347238537</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="contact-info-item padd-15">
+          <div class="icon"><i class="fa fa-envelope"></i></div>
+          <h4>Email</h4>
+          <p>komuravellimanasa7@gmail.com</p> 
+        </div>
+
+        <div class="contact-info-item padd-15">
+          <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+          <h4>linkedin</h4>
+          <p>komuravellimanasa7@gmail.com</p>
+        </div>
+      </div>  
+        <!--contact item end-->
+    </div>
+      <h3 class="contact-title padd-15"> SEND ME AN EMAIL</h3>
+      <h4 class="contact-sub-title padd-15">I,M VERY RESPOSIVE TO MESSAGES</h4>
+      <!--contact form statr-->
+      <div class="row">
+        <div class="contact-form padd-15">
+          <div class="row">
+            <div class="form-item col-6 padd-15">
+              <div class="form-group">
+                <input type="text" class="form-control"placeholder="Name">
+              </div>
+            </div>
+
+            <div class="form-item col-6 padd-15">
+              <div class="form-group">
+                <input type="email" class="form-control"placeholder="Email">
+              </div>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="form-item col-12 padd-15">
+              <div class="form-group">
+                <input type="text" class="form-control"placeholder="Subject">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-item col-12 padd-15">
+              <div class="form-group">
+               <textarea name=""class="form-control" id=""placeholder="message"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-item col-12 padd-15">
+              <button type="submit"class="btn">Send Me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- contact section  end-->
+  </div>
+<!--main container end-->
+<!--styles switcher start-->
+<div class="style-switcher">
+  <div class="style-switcher-toggler s-icon">
+    <i class="fa-solid fa-gear fa-spin"></i>
+  </div>
+  <div class="day-night s-icon">
+    <i class="fa-solid fa-moon"></i>
+  </div>
+  <h4>Theme colors</h4>
+  <div class="colors">
+    <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+    <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+    <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+    <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+    <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+  </div>
+</div>
+<!--styles switcher end-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" referrerpolicy="no-referrer"></script>
+   <script src="script.js"></script> 
+   <script src="style-switcher.js"></script>
+</body>
+</html>
